@@ -21,7 +21,7 @@ namespace Ft210007Lab8
 
         public int Generate()
         {
-            int resp = rnd.Next(0, range); //генерация числа
+            int resp = rnd.Next(1, range); //генерация числа
             if (!response.Contains(resp)) 
             {
                 response.Add(resp);

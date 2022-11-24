@@ -49,6 +49,7 @@ namespace Ft210007Lab8
                     {
                         Console.WriteLine("You guessed!!!");
                         sw.WriteLine("Пользователь угадал число");
+                        Console.ReadLine();
                         return;
                     }
                     
@@ -57,7 +58,7 @@ namespace Ft210007Lab8
                 Console.WriteLine("All trials left");
                 sw.WriteLine("Пользователь израсходовал все попытки");
 
-                sw.WriteLine("Список полученных чисел: ");
+                sw.WriteLine("Список сгенерированных чисел: ");
                 for (int i = 0; i < g.response.Count; i++)
                 {
                     sw.WriteLine(g.response[i]);
